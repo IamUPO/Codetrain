@@ -1,0 +1,54 @@
+.p-top {
+    padding-top: 4rem;
+}
+
+.m-full {
+    margin-top: -80px;
+}
+
+.btn-color {
+    background: linear-gradient(90deg, rgb(48, 207, 106) 0%, rgb(43, 186, 201) 100%);
+}
+
+.footer-color {
+    background: red;
+    background-color: #2d314e;
+}
+
+@media (min-width:991px) {
+    .bg-before::before {
+        content: '';
+        background-image: url('../img/bg-intro-desktop.svg');
+        position: absolute;
+        top: 0;
+        width: 100%;
+        max-width: 60%;
+        height: 100%;
+        z-index: -1;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:after {
+    content: "";
+    opacity: 0;
+    transform: all 0.2s;
+    height: 4px;
+    width: 100%;
+    background-color: #2fcd76;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+

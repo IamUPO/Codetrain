@@ -1,0 +1,19 @@
+.span-before {
+    position: relative;
+    color: white;
+    background-color: #0d6bf5;
+    padding: 1px 8px;
+    border-radius: 25px;
+}
+
+.span-before::before {
+    content: "";
+    position: absolute;
+    width: 0.5px;
+    height: 10rem;
+    background-color: rgba(13, 104, 237, 0.21);
+    left: 10px;
+}
+
+
+
