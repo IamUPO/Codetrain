@@ -8,5 +8,28 @@
 </head>
 <body>
     
+
+    <script>
+        // Step 2: Create an array containing names of your colleagues
+        let colleagues = ["Alice", "Bob", "Charlie", "David"];
+    
+        // Step 3: Write a for loop to print out each name in the array
+        console.log("Colleagues:");
+        for (let i = 0; i < colleagues.length; i++) {
+          console.log(colleagues[i]);
+        }
+    
+        // Step 4: Write an if else, else if statement
+        let randomIndex = Math.floor(Math.random() * colleagues.length); // Get a random index
+        let randomColleague = colleagues[randomIndex]; // Get a random colleague name
+    
+        if (randomColleague === "Alice") {
+          console.log("Randomly selected colleague is Alice.");
+        } else if (randomColleague === "Bob") {
+          console.log("Randomly selected colleague is Bob.");
+        } else {
+          console.log("Randomly selected colleague is neither Alice nor Bob.");
+        }
+      </script>
 </body>
 </html>
