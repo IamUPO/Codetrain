@@ -1,6 +1,6 @@
 let mySelf = {
     name: "Promise Uzor Okwudiri",
-    age: "24",
+    age: '24',
     email: "uzorpromiseokwudiri@gmail.com"
 };
 
