@@ -34,5 +34,5 @@ const studentData = [
 //     console.log(student);
 // }
 
-const gen24Student = studentData.filter((studetData) => studetData.gen === 28);
+const gen24Student = studentData.filter((studetData) => studetData.gen === 27);
 console.log(gen24Student);
