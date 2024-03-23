@@ -1,0 +1,12 @@
+PROBLEM SET ONE:
+DSA TYPE: STRING METHODS
+
+Problem One: Take the variable `name` and capitalize the first letter of the word
+using string methods. Put the result in a variable called `correctName`.
+
+DSA TYPE: ARRAY METHODS
+PROBLEM SET TWO:
+
+Given an array of studentData object that contains the following
+properties: name, email, and gen, Use a for loop
+to iterate through the array.
