@@ -16,7 +16,7 @@
 
 // Array(5).fill("Hello World").forEach(message => console.log(message));
 
-// const studentData = [
+// let studentData = [
 //     { name: "Kwabc", email: "kwabc@gmail.com", gen: 25, },
 //     { name: "Promise", email: "promise@gmail.com", gen: 27, },
 //     { name: "Ngozi", email: "ngozi@gmail.com", gen: 25, },
@@ -34,7 +34,7 @@
 //     console.log(student);
 // }
 
-// const gen24Student = studentData.filter((studetData) => studetData.gen === 27);
+// let gen24Student = studentData.filter((studetData) => studetData.gen === 27);
 // console.log(gen24Student);
 
 // DSA Class Two (Destructuring)
@@ -46,7 +46,7 @@
 //     age: 25,
 // }
 
-// const studentName = student.name;
+// let studentName = student.name;
 // // console.log(studentName)
 
 // let {name, age: currentName=1, gen, email , phoneNumber= "0542939165"} = student;
@@ -74,22 +74,25 @@
 // console.log(a);
 
 // Create a nested object and destructure it
-const nestedObject = {
-    property1: {
-        subProperty1: "value1",
-        subProperty2: "value2",
-    },
-    property2: {
-        subProperty3: "value3",
-        subProperty4: "value4",
-    },
-};
+// let userObject = {
+//     name: "Promise",
+//     age: "25",
+//     email: "promise@gmail.com",
+//     School: {
+//         title: "Codetrain",
+//         gen: "27",
+//         location: "EastLegon"
+//     }
+// };
 
-const { property1, property2 } = nestedObject;
-const { subProperty1, subProperty2 } = property1;
-const { subProperty3, subProperty4 } = property2;
+// let { name, age, email, School: { title: schoolName, gen, location } } = userObject;
 
-console.log(subProperty1);
-console.log(subProperty2);
-console.log(subProperty3);
-console.log(subProperty4);
+// console.log(name);
+
+// Destructuring
+// Nested Object
+//Arrey Destructure
+//Object
+//Undefined
+//Spread Operator
+//Swappping Value
