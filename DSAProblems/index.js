@@ -91,8 +91,8 @@
 
 // Destructuring
 // Nested Object
-//Arrey Destructure
-//Object
-//Undefined
-//Spread Operator
-//Swappping Value
+// Array Destructure
+// Object Destructure
+// Undefined
+// Spread Operator
+// Swapping Values
