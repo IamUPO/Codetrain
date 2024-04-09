@@ -96,3 +96,29 @@
 // Undefined
 // Spread Operator
 // Swapping Values
+ 
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let doubleNumber = numbers.map((number) => number * 2);
+
+// console.log(doubleNumber);
+
+
+
+let users = [
+    { firstName: 'John', lastName: 'Doe', age: 30, email: 'john.doe@example.com' },
+    { firstName: 'Jane', lastName: 'Smith', age: 25, email: 'jane.smith@example.com' },
+    { firstName: 'Michael', lastName: 'Johnson', age: 35, email: 'michael.johnson@example.com' },
+    { firstName: 'Emily', lastName: 'Williams', age: 28, email: 'emily.williams@example.com' },
+    { firstName: 'David', lastName: 'Brown', age: 32, email: 'david.brown@example.com' },
+];
+
+let body = document.querySelector('body');
+
+let singleUser = users.map((user) => { 
+    let fullName = `${user.firstName} ${user.lastName}`;
+
+    return `<h2>${fullName}</h2>
+            <p>${user.email}</p>`;
+});
+body.innerHTML = singleUser.join('');
