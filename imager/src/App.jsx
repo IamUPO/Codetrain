@@ -1,11 +1,15 @@
 import './styles/index.css'
+import reactLogo from './assets/react.svg'
 
 function App() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+            <main>
+          <img src={reactLogo} className="logo react" alt="React logo" />
+            <h1>React</h1>
+            <p>I love React but Vue is Class</p> 
+            </main>
+            
     </>
   )
 }
