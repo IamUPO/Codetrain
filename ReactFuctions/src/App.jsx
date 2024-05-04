@@ -1,10 +1,13 @@
-import React from 'react';
-import Button from './components/button';
-import './styles/index.css'
+// import React from 'react';
+
+import Button from './components/Button'
+
 
 function App() {
   return (
     <>
+      <Button name="Login" buttonColor="blue" textColor="white"/>
+      <Button/>
       <Button/>
     </>
   )
