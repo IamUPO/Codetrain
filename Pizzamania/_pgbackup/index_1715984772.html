@@ -16,7 +16,7 @@
             <section class="position-relative"> 
                 <header class="mb-5 position-absolute w-100 z-3" id="header"> 
                     <nav class="navbar navbar-dark navbar-expand-lg pb-0 pt-0 shadow-none"> 
-                        <div class="container"> <a class="align-items-center bg-success d-inline-flex flex-column fw-bold gap-2 h4 lh-1 navbar-brand p-2 rounded-5 rounded-pill rounded-top" href="#"><span>Pizzamania</span><img src="img/pizza-svgrepo-com.png" width="40"/> </a> 
+                        <div class="container"> <a class="align-items-center bg-success d-inline-flex flex-column fw-bold gap-2 h4 lh-1 navbar-brand p-2 rounded-5 rounded-pill rounded-top" href="#"><span>Pizzamania</span><img src="img/pizza-svgrepo-com.png" width="40"> </a> 
                             <button class="navbar-toggler rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-2" aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
                             </button>                             
                             <div class="collapse navbar-collapse " id="navbarNavDropdown-2"> 
@@ -32,13 +32,12 @@
                                     <li class="nav-item"> <a class="fw-semibold nav-link p-lg-3 pe-xl-4 ps-xl-4 text-light" href="#shop">Shop</a> 
                                     </li>                                     
                                 </ul>                                 
-                                <div class="d-inline-flex flex-wrap gap-3 py-1"> <a href="#" aria-label="facebook" class="link-light text-decoration-none"><i class="fa-fw fa-lg fa-pizza-slice fas"></i> </a>
-                                    <a href="#" aria-label="facebook" class="link-light text-decoration-none"><i class="fa-fw fa-lg fa-shopping-cart fas"></i> </a> 
+                                <div class="d-inline-flex flex-wrap gap-3 py-1"> <a href="#" aria-label="facebook" class="link-light text-decoration-none"><i class="fa-fw fa-lg fa-pizza-slice fas"></i> </a><a href="#" aria-label="facebook" class="link-light text-decoration-none"><i class="fa-fw fa-lg fa-shopping-cart fas"></i> </a> 
                                 </div>                                 
                             </div>                             
                         </div>                         
                     </nav>                     
-                </header>
+                </header>                 
                 <div id="carousel1" class="carousel slide" data-bs-ride="carousel"> 
                     <ol class="carousel-indicators"> 
                         <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>                         
@@ -47,7 +46,7 @@
                     </ol>                     
                     <div class="carousel-inner"> 
                         <div class="carousel-item active" data-bs-interval="10000"> 
-                            <img class="blurred-image d-block min-vh-100 min-vw-100" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fHBpenphfGVufDB8fHx8MTcwMTc3ODQ5M3ww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1000&h=470&fit=crop"/> 
+                            <img class="blurred-image d-block img-fluid min-vh-100 min-vw-100" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fHBpenphfGVufDB8fHx8MTcwMTc3ODQ5M3ww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1000&h=470&fit=crop"/> 
                         </div>                         
                         <div class="carousel-item" data-bs-interval="2000"> 
                             <img src="https://images.unsplash.com/photo-1571066811602-716837d681de?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDR8fHBpenphfGVufDB8fHx8MTcwMTc3ODQ5M3ww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1000&h=470&fit=crop" class="blurred-image d-block img-fluid min-vh-100 min-vw-100"/> 
@@ -132,6 +131,9 @@
                     </div>                     
                 </div>                 
             </section>             
+            <div class="container pb-1 pt-1"> 
+                <hr class="mx-auto w-50"> 
+            </div>             
             <section id="gallary" class="pb-5 pt-5 text-center"> 
                 <div class="container pb-5"> 
                     <div class="bg-light p-5 rounded-3"> 
@@ -254,14 +256,18 @@
             <footer class="bg-dark pt-5 text-center text-md-start text-white"> 
                 <div class="container"> 
                     <div class="row"> 
-                        <div class="align-items-center col-lg-4 d-flex flex-column py-3 text-center"> <a class="align-items-center d-inline-flex flex-column fw-bold gap-2 h3 lh-1 link-info mb-3 text-decoration-none" href="#"> <img src="img/pizza-svgrepo-com.png" width="60"/><span class="text-success">The
-                                Pizzamania</span></a>
-                            <div class="align-content-center d-inline-flex flex-wrap gap-2 py-1"> <a href="#" aria-label="facebook" class="link-light"> <i class="fa-facebook-f fa-fw fa-lg fab"></i> </a> <a href="#" aria-label="twitter" class="link-light"> <i class="fa-fw fa-lg fa-twitter fab"></i> </a> <a href="#" aria-label="instagram" class="link-light"> <i class="fa-fw fa-instagram-square fa-lg fab"></i> </a> <a href="#" aria-label="linkedin" class="link-light"> <i class="fa-fw fa-lg fa-linkedin fab"></i> </a> <a href="#" aria-label="youtube" class="link-light"><i class="fa-fw fa-lg fa-youtube fab"></i> </a> 
+                        <div class="col-lg-4 py-3 text-center"> <a class="align-items-center d-inline-flex flex-column fw-bold gap-2 h3 lh-1 link-info mb-3 text-decoration-none" href="#"> <img src="img/pizza-svgrepo-com.png" width="60"><span class="text-success">The
+                                Pizzamania</span></a> 
+                            <ul class="list-unstyled"> 
+</ul>                             
+                            <ul class="list-unstyled"> 
+</ul>                             
+                            <div class="d-inline-flex flex-wrap gap-2 py-1"> <a href="#" aria-label="facebook" class="link-light"> <i class="fa-facebook-f fa-fw fa-lg fab"></i> </a> <a href="#" aria-label="twitter" class="link-light"> <i class="fa-fw fa-lg fa-twitter fab"></i> </a> <a href="#" aria-label="instagram" class="link-light"> <i class="fa-fw fa-instagram-square fa-lg fab"></i> </a> <a href="#" aria-label="linkedin" class="link-light"> <i class="fa-fw fa-lg fa-linkedin fab"></i> </a> <a href="#" aria-label="youtube" class="link-light"><i class="fa-fw fa-lg fa-youtube fab"></i> </a> 
                             </div>                             
                         </div>                         
                         <div class="col-lg-4 col-md-6 order-lg-first py-3"> 
                             <h2 class="fw-bold h5 mb-0 text-success">Contact Info</h2> 
-                            <hr class="d-inline-block mb-4 w-25"/> 
+                            <hr class="d-inline-block mb-4 w-25"> 
                             <div class="gy-3 row row-cols-sm-2"> 
                                 <div> 
                                     <ul class="list-unstyled"> 
@@ -295,34 +301,27 @@
                         </div>                         
                         <div class="col-lg-3 col-md-6 offset-lg-1 py-3"> 
                             <h2 class="fw-bold h5 mb-0 text-success">Opening Hours</h2> 
-                            <hr class="d-inline-block mb-4 w-25"/> 
+                            <hr class="d-inline-block mb-4 w-25"> 
                             <ul class="list-unstyled"> 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Monday&nbsp;</span> <span>8 AM - 10 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Monday&nbsp;</span> <span>8 AM - 10 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Tuesday&nbsp;</span> <span>8 AM - 10 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Tuesday&nbsp;</span> <span>8 AM - 10 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Wednesday&nbsp;</span> <span>8 AM - 10 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Wednesday&nbsp;</span> <span>8 AM - 10 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Thursday&nbsp;</span> <span>8 AM - 10 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Thursday&nbsp;</span> <span>8 AM - 10 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Friday&nbsp;</span> <span>8 AM - 10 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Friday&nbsp;</span> <span>8 AM - 10 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Saturday&nbsp;</span> <span>12 PM - 8 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Saturday&nbsp;</span> <span>12 PM - 8 PM</span> 
                                 </li>                                 
-                                <li class="align-items-center d-flex justify-content-between mb-1">
-                                    <span>Sunday&nbsp;</span> <span>12 PM - 8 PM</span> 
+                                <li class="align-items-center d-flex justify-content-between mb-1"><span>Sunday&nbsp;</span> <span>12 PM - 8 PM</span> 
                                 </li>                                 
                             </ul>                             
                         </div>                         
                     </div>                     
                     <div class="pb-3 pt-3"> 
-                        <hr class="border-secondary mt-0"/> 
+                        <hr class="border-secondary mt-0"> 
                         <div class="align-items-center row"> 
                             <div class="col-md pb-2 pt-2"> 
                                 <p class="mb-0">&copy; 2023 All Rights Reserved - Company Name</p> 
@@ -332,9 +331,9 @@
                             </div>                             
                         </div>                         
                     </div>                     
-                </div>                 <a href="#header"><img src="img/up-arrow-svgrepo-com.png" width="50" id="home" class="bg-opacity-50 bg-success fixed-bottom p-2 position-fixed"></a>
+                </div>                 
             </footer>             
-        </main>         
+        </main><a href="#header"><img src="img/up-arrow-svgrepo-com.png" width="50" id="home" class="bg-opacity-50 bg-success fixed-bottom p-2 position-fixed"></a> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>         
     </body>     
 </html>
