@@ -1,3 +1,6 @@
 [submodule "imager"]
 	path = imager
 	url = https://github.com/iamupo/imager.git
+[submodule "cryptofam"]
+	path = cryptofam
+	url = https://github.com/iamupo/cryptofam.git
