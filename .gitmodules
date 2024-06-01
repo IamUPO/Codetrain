@@ -1,0 +1,3 @@
+[submodule "imager"]
+	path = imager
+	url = https://github.com/iamupo/imager.git
