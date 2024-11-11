@@ -4,3 +4,6 @@
 [submodule "cryptofam"]
 	path = cryptofam
 	url = https://github.com/iamupo/cryptofam.git
+[submodule "mini-fintech"]
+	path = mini-fintech
+	url = https://github.com/upovibe/mini-fintech.git
