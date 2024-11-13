@@ -4,11 +4,13 @@
   "description": "A server with http package",
   "main": "index.js",
   "scripts": {
-    "start": "node index.jsx"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.7"
   }
 }
