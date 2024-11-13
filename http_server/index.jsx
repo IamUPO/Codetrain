@@ -13,6 +13,12 @@ const handleAllRequest = (requestObject, responseObject) => {
   }else if (url === "/contact") {
     responseObject.end("Welcome to my contact page");
     return;
+  }else if (url === "/product") {
+    responseObject.end("Welcome to my product page");
+    return;
+  }else if (url === "/services") {
+    responseObject.end("Welcome to my services page");
+    return;
   }else {
     responseObject.end("404 page not found");
     return;
