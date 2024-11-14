@@ -1,18 +1,24 @@
-# Nodejs 
+# http_server
 
-## Description
-A Nodejs project project.
+## Nodejs
 
-## Installation
+### Description
+A Nodejs project.
 
-### Prerequisites
+### Installation
+
+#### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
-### Setup
+#### Setup
 
-1. Clone the repository:
+1. Clone the repository with sparse checkout for the `http_server` subfolder:
     ```sh
-    git clone https://github.com/upovibe/Codetrain/tree/main/http_server.git
+    git clone --no-checkout https://github.com/upovibe/Codetrain.git
+    cd Codetrain
+    git sparse-checkout init --cone
+    git sparse-checkout set http_server
+    git checkout main  # Replace 'main' with the default branch if it's different
     cd http_server
     ```
 
@@ -32,3 +38,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
     npm start
     ```
 
+### Usage
+Provide instructions and examples on how to use your application.
+
+### Contributing
+Explain how other developers can contribute to your project.
+
+### License
+Add your license information here.
