@@ -18,7 +18,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
     cd Codetrain
     git sparse-checkout init --cone
     git sparse-checkout set http_server
-    git checkout main  # Replace 'main' with the default branch if it's different
+    git checkout main
     cd http_server
     ```
 
