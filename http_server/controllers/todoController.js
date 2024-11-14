@@ -7,8 +7,8 @@ const createTodoController = async (req, res) => {
 
     // Create a new Todo document
     const newTodo = new Todo({
-      title,
-      description,
+      title : title || "No title",
+      description : description || "No description",
       iscompleted : iscompleted  || false,
     });
 
