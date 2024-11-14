@@ -1,14 +1,7 @@
-const express = require("express");
-const morgan = require("morgan");
-const todoRoute = require("./routes/todoRoute");
+// index.js
+const server = require("./server");
 
-const server = express();
-server.use(morgan("dev"));
-server.use(express.json());
-
-server.use("/api/v1", todoRoute);
-
-server.listen(3000, "127.0.0.1", () => {
-  console.log("server is running on port 3000");
+const port = 3000;
+server.listen(port, "127.0.0.1", () => {
+  console.log(`App running on port ${port}...`);
 });
-
