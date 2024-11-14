@@ -1,7 +1,7 @@
 # Nodejs 
 
 ## Description
-Brief description of your project.
+Nodejs project project.
 
 ## Installation
 
