@@ -1,11 +1,10 @@
-// import express from 'express';
-// import { signup,login, logout, updateProfile, checkAuth } from '../controllers/authController.js';
-// import { protectRoute } from '../middleware/authMiddleware.js';
+import express from 'express';
+import { signup } from '../controllers/authController.js';
 
-// const router = express.Router();
+const router = express.Router();
 
-// // signUp routes
-// router.post('/signup', signup)
+// Signup route
+router.post('/signup', signup);
 
 // // Login routes
 // router.post('/login', login)
@@ -19,4 +18,4 @@
 // // Check Authentication routes
 // router.get('/status', protectRoute, checkAuth);
 
-// export default router;
+export default router;

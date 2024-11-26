@@ -9,6 +9,7 @@ import { connectDB } from './config/db.js';
 
 // Import routes
 import todoRoute from './routes/todoRoute.js';
+import authRoute from './routes/authRoute.js';
 
 // initialize dotenv
 dotenv.config();
@@ -23,6 +24,7 @@ app.use(express.json());
 
 // Initialiaze Routes
 app.use("/api/todo", todoRoute);
+app.use("/api/auth", authRoute);
 
 // Define the port number the server will listen on
 const PORT = process.env.PORT || 3000;
