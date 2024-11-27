@@ -17,7 +17,7 @@ dotenv.config();
 // Initialize an Express application
 const app = express();
 
-// Initialize Middleware
+// Initialize MiddlewareAC
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(express.json()); 
