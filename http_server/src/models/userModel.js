@@ -42,6 +42,11 @@ const userSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
+    lastLgin: {
+      type: Date,
+      default: Date.now,
+    },
+    
   },
   { timestamps: true }
 );
